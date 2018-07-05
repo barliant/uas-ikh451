@@ -27,11 +27,15 @@ def main():
         print(encryptedText)
 
     elif mode == 'decrypt':
-        privKeyFilename = 'al_sweigart_privkey.txt'
+        privKeyFilename = 'submission_privkey.txt'
         print('Reading from %s and decrypting...' % (filename))
         decryptedText = readFromFileAndDecrypt(filename, privKeyFilename)
 
         print('Decrypted text:')
+        print(decryptedText)
+
+        decryptedText = readFromFileAndDecrypt('harapan_rahasia.txt', privKeyFilename)
+        print('Harapan mahasiswa:')
         print(decryptedText)
 
 
