@@ -7,7 +7,7 @@ import sys, math
 # the makePublicPrivateKeys.py program.
 # This program must be run in the same folder as the key files.
 
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.,-'
+SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.,-\n'
 
 def main():
     # Runs a test that encrypts a message to a file or decrypts a message
