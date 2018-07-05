@@ -17,7 +17,7 @@ def main():
 
     if mode == 'encrypt':
         message = 'Journalists belong in the gutter because that is where the ruling classes throw their guilty secrets. Gerald Priestland. The Founding Fathers gave the free press the protection it must have to bare the secrets of government and inform the people. Hugo Black.'
-        pubKeyFilename = 'al_sweigart_pubkey.txt'
+        pubKeyFilename = 'submission_pubkey.txt'
         print('Encrypting and writing to %s...' % (filename))
         encryptedText = encryptAndWriteToFile(filename, pubKeyFilename, message)
 
