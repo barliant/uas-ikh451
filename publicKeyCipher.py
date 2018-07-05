@@ -20,6 +20,8 @@ def main():
         pubKeyFilename = 'submission_pubkey.txt'
         print('Encrypting and writing to %s...' % (filename))
         encryptedText = encryptAndWriteToFile(filename, pubKeyFilename, message)
+        message = raw_input("Tuliskan harapan saudara dari kuliah ini: ")
+        encryptAndWriteToFile('harapan_rahasia.txt', pubKeyFilename, message)
 
         print('Encrypted text:')
         print(encryptedText)
