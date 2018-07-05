@@ -12,7 +12,7 @@ SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 def main():
     # Runs a test that encrypts a message to a file or decrypts a message
     # from a file.
-    filename = 'encrypted_file.txt' # The file to write to/read from.
+    filename = 'berita_rahasia.txt' # The file to write to/read from.
     mode = 'encrypt' # Set to either 'encrypt' or 'decrypt'.
 
     if mode == 'encrypt':
